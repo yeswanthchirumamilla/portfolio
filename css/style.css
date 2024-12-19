@@ -162,27 +162,9 @@ html {
 }
 
 @media (max-width: 480px) {
-    .menu {
-        width: 100%;
-        position: static;
-    }
-
-    .main-menu li a {
-        font-size: 14px;
-    }
-
-    .container.mt-5 {
-        padding: 15px;
-    }
-
-    .card-header {
-        font-size: 1rem;
-    }
-
-    .btn {
-        width: 100%;
-        padding: 10px;
-        font-size: 16px;
+    .image img {
+        width: 120px;
+        height: 120px;
     }
 
     .author-content h4 {
@@ -190,6 +172,10 @@ html {
     }
 
     .author-content span {
-        font-size: 10px;
+        font-size: 12px;
+    }
+
+    .main-menu li a {
+        font-size: 14px;
     }
 }
