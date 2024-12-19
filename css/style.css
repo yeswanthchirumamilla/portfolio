@@ -183,6 +183,7 @@ html {
         background-color: #6c757d;
         padding: 10px 0;
         text-align: center;
+        position:relative;
         width: 100%;
     }
 
