@@ -160,22 +160,22 @@ html {
     background-color: #8bbcf0;
     text-decoration: none;
 }
-
 @media (max-width: 480px) {
-    .image img {
-        width: 120px;
-        height: 120px;
+    .btn {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    .menu ul li a {
+        font-size: 14px;
+        padding: 8px;
     }
 
     .author-content h4 {
         font-size: 18px;
     }
 
-    .author-content span {
-        font-size: 12px;
-    }
-
-    .main-menu li a {
-        font-size: 14px;
+    .skills div {
+        padding: 8px;
     }
 }
