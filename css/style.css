@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(220, 191, 191);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.menu {
+    background-color:#6c757d;
+    padding: 20px 0;
+    text-align: center;
+    height: 100%;
+    width : 250px;
+    position: fixed;
+}
+.image {
+    padding-top: 50px;
+    padding-bottom: 5px;
+}
+.image img {
+    margin-bottom: 10px;
+}
+
+.author-content h4 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.author-content span {
+    font-size: 14px;
+    color: #6c757d;
+}
+
+.main-menu {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.main-menu li {
+    margin: 10px 0;
+}
+
+.main-menu li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #007bff;
+}
+
+.main-menu li a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+
+
+.container.mt-5 {
+    background-color: #ddd;
+    margin-left: 260px;
+    margin-right: 10px;
+    width: auto;
+    border-radius: 16px; 
+    font-family: Arial, sans-serif;
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
+    
+}
+
+.container.mt-5 h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+}
+.container.mt-5 h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26px;
+}
+.container.mt-5 h5{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.container.mt-5 p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+.Project-Card {
+    background-color:rgb(176, 216, 216); 
+    border-radius: 13px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 30px; 
+    padding: 20px; 
+}
+
+/* Optional custom styles */
+.card {
+    background-color: #e3e7ec;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.card-header {
+    background-color: #c4cbd2;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.card-body ul {
+    background-color: #e3e7ec;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.card-body ul li {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.container.mt-5 {
+    padding-bottom: 50px;
+}
+
+
+.btn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.btn i {
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+.btn:hover {
+    background-color: #8bbcf0;
+    text-decoration: none;
+}
