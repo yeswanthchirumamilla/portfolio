@@ -160,3 +160,36 @@ html {
     background-color: #8bbcf0;
     text-decoration: none;
 }
+
+@media (max-width: 480px) {
+    .menu {
+        width: 100%;
+        position: static;
+    }
+
+    .main-menu li a {
+        font-size: 14px;
+    }
+
+    .container.mt-5 {
+        padding: 15px;
+    }
+
+    .card-header {
+        font-size: 1rem;
+    }
+
+    .btn {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .author-content h4 {
+        font-size: 18px;
+    }
+
+    .author-content span {
+        font-size: 10px;
+    }
+}
