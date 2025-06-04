@@ -90,12 +90,6 @@
                         with hands-on experience in building scalable applications and conducting research in cutting-edge
                         technologies.
                     </p>
-                    <!-- <p class="text-muted">
-                        As Joint Secretary of CSEA Technical Club, I've managed large-scale tech events with 500+ attendees and
-                        contributed to various projects involving Unity, AI, and RL-based games. I'm particularly interested in
-                        the intersection of artificial intelligence and practical applications, as demonstrated through my
-                        diverse project portfolio.
-                    </p> -->
                 </div>
             </div>
         </div>
@@ -167,7 +161,7 @@
                     </div>
                     <div class="card-header">
                         <div class="project-info">
-                            <h3 class="card-title">Web Scraping User Tools</h3>
+                            <h3 class="card-title">Enhancing User Experience by Leveraging Web Scraping</h3>
                             <div class="project-links">
                                 <a href="https://github.com/yeswanthchirumamilla/web-scraping-with-django" target="_blank" class="icon-btn">
                                     <i class="fab fa-github"></i>
@@ -185,7 +179,12 @@
                             <span class="tech-tag">BeautifulSoup</span>
                             <span class="tech-tag">BERT</span>
                             <span class="tech-tag">NLP</span>
+                            <span class="tech-tag">Web Automation</span>
                         </div>
+                        <button class="btn btn-outline more-details-btn" onclick="openModal('project1')">
+                            <i class="fas fa-info-circle"></i>
+                            More Details
+                        </button>
                     </div>
                 </div>
 
@@ -216,6 +215,10 @@
                             <span class="tech-tag">LSTM</span>
                             <span class="tech-tag">TensorFlow</span>
                         </div>
+                        <button class="btn btn-outline more-details-btn" onclick="openModal('project2')">
+                            <i class="fas fa-info-circle"></i>
+                            More Details
+                        </button>
                     </div>
                 </div>
 
@@ -245,6 +248,10 @@
                             <span class="tech-tag">Node.js</span>
                             <span class="tech-tag">Socket.io</span>
                         </div>
+                        <button class="btn btn-outline more-details-btn" onclick="openModal('project3')">
+                            <i class="fas fa-info-circle"></i>
+                            More Details
+                        </button>
                     </div>
                 </div>
 
@@ -272,8 +279,13 @@
                             <span class="tech-tag">Reinforcement Learning</span>
                             <span class="tech-tag">FTRL</span>
                             <span class="tech-tag">β-FTRL</span>
+                            <span class="tech-tag">PPO</span>
                             <span class="tech-tag">Open-CV</span>
                         </div>
+                        <button class="btn btn-outline more-details-btn" onclick="openModal('project4')">
+                            <i class="fas fa-info-circle"></i>
+                            More Details
+                        </button>
                     </div>
                 </div>
 
@@ -305,11 +317,356 @@
                             <span class="tech-tag">TensorFlow</span>
                             <span class="tech-tag">ANN</span>
                         </div>
+                        <button class="btn btn-outline more-details-btn" onclick="openModal('project5')">
+                            <i class="fas fa-info-circle"></i>
+                            More Details
+                        </button>
+                    </div>
+                </div>
+
+                <div class="card project-card">
+                    <div class="project-image">
+                        <img src="./assets/img6.png" alt="Wake Word Detection">
+                        <span class="project-category">Speech Recognition</span>
+                    </div>
+                    <div class="card-header">
+                        <div class="project-info">
+                            <h3 class="card-title">Speech Recognition Systems: Wake Word Detection Comparison</h3>
+                            <div class="project-links">
+                                <a href="https://github.com/yeswanthchirumamilla/Comparison-between-two-speech-wake-word-systems" target="_blank" class="icon-btn">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <p class="card-description">
+                            Explored and compared two approaches to wake word detection: a real-time streaming model (Porcupine) and a chunk-based speech-to-text model (Vosk). Benchmarked their performance and efficiency for edge device applications.
+                        </p>
+                    </div>
+                    <div class="card-content">
+                        <div class="tech-tags">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Porcupine</span>
+                            <span class="tech-tag">Vosk</span>
+                            <span class="tech-tag">NumPy</span>
+                            <span class="tech-tag">SoundDevice</span>
+                            <span class="tech-tag">PyAudio</span>
+                        </div>
+                        <button class="btn btn-outline more-details-btn" onclick="openModal('project6')">
+                            <i class="fas fa-info-circle"></i>
+                            More Details
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Project Modals -->
+    <div id="project1" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Web Scraping User Tools</h2>
+                <span class="close" onclick="closeModal('project1')">&times;</span>
+            </div>
+            <div class="modal-body">
+                <img src="./assets/img1.png" alt="Web Scraping Tools" class="modal-image">
+                <div class="modal-details">
+                    <h3>Project Overview</h3>
+                    <p>A comprehensive web scraping toolkit built with Python and Django, featuring multiple specialized modules for different data extraction needs.</p>
+                    
+                    <h3>Key Features</h3>
+                    <ul>
+                        <li><strong>Movie Data Aggregator:</strong> Scrapes movie information from multiple sources including IMDb, Rotten Tomatoes, and other film databases</li>
+                        <li><strong>Weather Information System:</strong> Real-time weather data extraction from various meteorological websites</li>
+                        <li><strong>Price Comparison Tool:</strong> Automated price monitoring across e-commerce platforms</li>
+                        <li><strong>Intelligent Doubt Resolver:</strong> Uses BERT model to summarize answers from 5+ educational websites</li>
+                    </ul>
+                    
+                    <h3>Technical Implementation</h3>
+                    <ul>
+                        <li>Built with Python using Selenium for dynamic content scraping</li>
+                        <li>BeautifulSoup for HTML parsing and data extraction</li>
+                        <li>BERT transformer model for natural language processing</li>
+                        <li>Django framework for web interface and API endpoints</li>
+                        <li>Implemented rate limiting and ethical scraping practices</li>
+                    </ul>
+                    
+                    <h3>Challenges Solved</h3>
+                    <ul>
+                        <li>Handling dynamic JavaScript-rendered content</li>
+                        <li>Implementing robust error handling for network failures</li>
+                        <li>Creating efficient data storage and retrieval systems</li>
+                        <li>Ensuring compliance with website terms of service</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="project2" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Movie Sentiment Analysis</h2>
+                <span class="close" onclick="closeModal('project2')">&times;</span>
+            </div>
+            <div class="modal-body">
+                <img src="./assets/img2.png" alt="Movie Sentiment Analysis" class="modal-image">
+                <div class="modal-details">
+                    <h3>Project Overview</h3>
+                    <p>A comprehensive comparative study of machine learning approaches for movie sentiment analysis, demonstrating the effectiveness of traditional ML vs deep learning methods.</p>
+                    
+                    <h3>Model Performance</h3>
+                    <ul>
+                        <li><strong>SVM Model:</strong> Achieved 86.9% accuracy with optimized hyperparameters</li>
+                        <li><strong>RNN (LSTM) Model:</strong> Achieved 50% accuracy, highlighting overfitting challenges</li>
+                        <li><strong>Key Finding:</strong> Traditional ML outperformed deep learning on this specific dataset</li>
+                    </ul>
+                    
+                    <h3>Technical Implementation</h3>
+                    <ul>
+                        <li>Data preprocessing with NLTK for text cleaning and tokenization</li>
+                        <li>Feature extraction using TF-IDF vectorization</li>
+                        <li>SVM implementation with scikit-learn and hyperparameter tuning</li>
+                        <li>LSTM network built with TensorFlow/Keras</li>
+                        <li>Cross-validation and performance metrics analysis</li>
+                    </ul>
+                    
+                    <h3>Dataset and Methodology</h3>
+                    <ul>
+                        <li>Used IMDb movie reviews dataset with 50,000 reviews</li>
+                        <li>Implemented stratified train-test split (80-20)</li>
+                        <li>Applied text preprocessing: lowercasing, punctuation removal, stopword filtering</li>
+                        <li>Compared multiple evaluation metrics: accuracy, precision, recall, F1-score</li>
+                    </ul>
+                    
+                    <h3>Key Insights</h3>
+                    <ul>
+                        <li>SVM's linear decision boundary worked well for sentiment classification</li>
+                        <li>LSTM suffered from overfitting due to limited training data</li>
+                        <li>Feature engineering proved more important than model complexity</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="project3" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>MERN Stack Chat Application</h2>
+                <span class="close" onclick="closeModal('project3')">&times;</span>
+            </div>
+            <div class="modal-body">
+                <img src="./assets/img3.png" alt="MERN Chat App" class="modal-image">
+                <div class="modal-details">
+                    <h3>Project Overview</h3>
+                    <p>A full-featured real-time chat application built with the MERN stack, providing seamless communication with modern web technologies.</p>
+                    
+                    <h3>Core Features</h3>
+                    <ul>
+                        <li><strong>Real-time Messaging:</strong> Instant message delivery using Socket.io</li>
+                        <li><strong>User Authentication:</strong> Secure login/signup with JWT tokens</li>
+                        <li><strong>Friend System:</strong> Send and accept friend requests</li>
+                        <li><strong>Online Presence:</strong> Real-time user status indicators</li>
+                        <li><strong>Message History:</strong> Persistent chat storage and retrieval</li>
+                    </ul>
+                    
+                    <h3>Technical Architecture</h3>
+                    <ul>
+                        <li><strong>Frontend:</strong> React.js with hooks and context API for state management</li>
+                        <li><strong>Backend:</strong> Node.js with Express.js RESTful API</li>
+                        <li><strong>Database:</strong> MongoDB with Mongoose ODM</li>
+                        <li><strong>Real-time:</strong> Socket.io for bidirectional communication</li>
+                        <li><strong>Authentication:</strong> JWT tokens with bcrypt password hashing</li>
+                    </ul>
+                    
+                    <h3>Advanced Features</h3>
+                    <ul>
+                        <li>Message encryption for security</li>
+                        <li>File sharing capabilities</li>
+                        <li>Emoji support and reactions</li>
+                        <li>Responsive design for mobile and desktop</li>
+                        <li>Message search and filtering</li>
+                    </ul>
+                    
+                    <h3>Deployment & Scalability</h3>
+                    <ul>
+                        <li>Deployed on Render.com with automatic deployments</li>
+                        <li>MongoDB Atlas for cloud database hosting</li>
+                        <li>Implemented connection pooling for database efficiency</li>
+                        <li>Error handling and logging for production stability</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="project4" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>StarCraft II RL Optimizer Comparison</h2>
+                <span class="close" onclick="closeModal('project4')">&times;</span>
+            </div>
+            <div class="modal-body">
+                <img src="./assets/img4.png" alt="StarCraft II RL" class="modal-image">
+                <div class="modal-details">
+                    <h3>Project Overview</h3>
+                    <p>
+                        Advanced reinforcement learning research project comparing online learning optimizers in the complex, dynamic environment of StarCraft II mini-games. 
+                        Implemented and compared FTRL, β-FTRL, and PPO (Proximal Policy Optimization) algorithms for policy learning and optimization.
+                    </p>
+                    
+                    <h3>Research Findings</h3>
+                    <ul>
+                        <li><strong>β-FTRL Performance:</strong> Achieved 2x reward improvement compared to standard FTRL</li>
+                        <li><strong>PPO Efficiency:</strong> PPO provided stable and efficient policy updates, outperforming DQN in this context</li>
+                        <li><strong>Training Efficiency:</strong> β-FTRL and PPO reached optimal performance in less time</li>
+                        <li><strong>Convergence Stability:</strong> More stable learning curves with reduced variance</li>
+                    </ul>
+                    
+                    <h3>Technical Implementation</h3>
+                    <ul>
+                        <li><strong>Environment:</strong> StarCraft II Learning Environment (SC2LE)</li>
+                        <li><strong>Algorithms:</strong> FTRL, β-FTRL, and PPO optimization comparison</li>
+                        <li><strong>Computer Vision:</strong> OpenCV for game state analysis</li>
+                        <li><strong>Neural Networks:</strong> PPO-based policy networks for action selection</li>
+                        <li><strong>Data Processing:</strong> Real-time game state feature extraction</li>
+                    </ul>
+                    
+                    <h3>Mini-Games Tested</h3>
+                    <ul>
+                        <li>MoveToBeacon: Basic movement and targeting</li>
+                        <li>CollectMineralShards: Resource collection optimization</li>
+                        <li>FindAndDefeatZerglings: Combat strategy learning</li>
+                        <li>DefeatRoaches: Advanced unit micro-management</li>
+                    </ul>
+                    
+                    <h3>Key Contributions</h3>
+                    <ul>
+                        <li>Demonstrated β-FTRL and PPO's superiority in dynamic environments</li>
+                        <li>Developed novel reward shaping techniques for SC2</li>
+                        <li>Created efficient state representation for real-time strategy games</li>
+                        <li>Published comparative analysis of online learning optimizers</li>
+                    </ul>
+                    
+                    <h3>Challenges Overcome</h3>
+                    <ul>
+                        <li>Handling partial observability in game states</li>
+                        <li>Managing large action spaces efficiently</li>
+                        <li>Balancing exploration vs exploitation in dynamic environments</li>
+                        <li>Optimizing computational performance for real-time learning</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="project5" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Spam Classification with ANN</h2>
+                <span class="close" onclick="closeModal('project5')">&times;</span>
+            </div>
+            <div class="modal-body">
+                <img src="./assets/img5.jpg" alt="Spam Classifier" class="modal-image">
+                <div class="modal-details">
+                    <h3>Project Overview</h3>
+                    <p>An end-to-end spam classification system using Natural Language Processing and Artificial Neural Networks to accurately identify spam messages in SMS and email communications.</p>
+                    
+                    <h3>Model Performance</h3>
+                    <ul>
+                        <li><strong>Accuracy:</strong> Achieved 97.2% accuracy on test dataset</li>
+                        <li><strong>Precision:</strong> 96.8% precision for spam detection</li>
+                        <li><strong>Recall:</strong> 95.4% recall ensuring minimal false negatives</li>
+                        <li><strong>F1-Score:</strong> 96.1% balanced performance metric</li>
+                    </ul>
+                    
+                    <h3>Data Preprocessing Pipeline</h3>
+                    <ul>
+                        <li><strong>Text Cleaning:</strong> Removal of special characters, URLs, and numbers</li>
+                        <li><strong>Tokenization:</strong> Breaking text into individual words</li>
+                        <li><strong>Stemming:</strong> Reducing words to their root forms using Porter Stemmer</li>
+                        <li><strong>Stopword Removal:</strong> Filtering out common words with low predictive value</li>
+                        <li><strong>Vectorization:</strong> Converting text to numerical features using Bag-of-Words</li>
+                    </ul>
+                    
+                    <h3>Neural Network Architecture</h3>
+                    <ul>
+                        <li><strong>Input Layer:</strong> 5000 features from TF-IDF vectorization</li>
+                        <li><strong>Hidden Layers:</strong> 3 dense layers with ReLU activation (128, 64, 32 neurons)</li>
+                        <li><strong>Dropout:</strong> 0.3 dropout rate to prevent overfitting</li>
+                        <li><strong>Output Layer:</strong> Single neuron with sigmoid activation for binary classification</li>
+                        <li><strong>Optimizer:</strong> Adam optimizer with learning rate scheduling</li>
+                    </ul>
+                    
+                    <h3>Dataset and Features</h3>
+                    <ul>
+                        <li>SMS Spam Collection Dataset with 5,574 messages</li>
+                        <li>Balanced dataset with 4,825 ham and 747 spam messages</li>
+                        <li>Feature engineering including message length, word count, and character frequency</li>
+                        <li>Cross-validation with stratified k-fold for robust evaluation</li>
+                    </ul>
+                    
+                    <h3>Technical Implementation</h3>
+                    <ul>
+                        <li><strong>Libraries:</strong> TensorFlow/Keras for neural networks, NLTK for NLP</li>
+                        <li><strong>Data Handling:</strong> Pandas for data manipulation, NumPy for numerical operations</li>
+                        <li><strong>Visualization:</strong> Matplotlib and Seaborn for performance analysis</li>
+                        <li><strong>Model Persistence:</strong> Saved trained model and vectorizer for deployment</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="project6" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Speech Recognition Systems: Wake Word Detection Comparison</h2>
+                <span class="close" onclick="closeModal('project6')">&times;</span>
+            </div>
+            <div class="modal-body">
+                <img src="./assets/speech_wakeword.png" alt="Wake Word Detection" class="modal-image">
+                <div class="modal-details">
+                    <h3>Project Overview</h3>
+                    <p>
+                        This project explores and compares two different approaches to wake word detection in speech recognition systems. It evaluates a lightweight, real-time streaming model (Porcupine) and a more computationally intensive chunk-based speech-to-text model (Vosk). The goal was to measure their performance, efficiency, and suitability for edge device applications.
+                    </p>
+                    <h3>Key Features</h3>
+                    <ul>
+                        <li><strong>Porcupine (by Picovoice):</strong>
+                            <ul>
+                                <li>Real-time, low-latency wake word detection</li>
+                                <li>Consumes &lt;4% CPU and ~25 MB RAM</li>
+                                <li>Ideal for resource-constrained environments like Raspberry Pi or mobile devices</li>
+                            </ul>
+                        </li>
+                        <li><strong>Vosk:</strong>
+                            <ul>
+                                <li>General-purpose speech-to-text engine</li>
+                                <li>Operates on 2-second audio chunks</li>
+                                <li>Consumes &gt;20% CPU and ~180 MB RAM</li>
+                                <li>More flexible but less efficient for continuous wake word detection</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <h3>Technologies Used</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>Picovoice Porcupine SDK</li>
+                        <li>Vosk API</li>
+                        <li>NumPy, SoundDevice, PyAudio</li>
+                        <li>CPU and memory benchmarking</li>
+                    </ul>
+                    <h3>Outcome</h3>
+                    <ul>
+                        <li>Porcupine proved significantly more efficient for wake word detection on edge devices.</li>
+                        <li>Vosk showed better general speech transcription capabilities but is not optimized for real-time keyword spotting.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Skills Section -->
     <section id="skills" class="section section-alt">
